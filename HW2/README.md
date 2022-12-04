@@ -1,0 +1,1 @@
+ДЗ лежит на гите: https://github.com/Volodik14/SmartContract
