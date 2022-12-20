@@ -1,7 +1,8 @@
 const Web3 = require('web3')
 var web3 = new Web3("https://mainnet.infura.io/v3/1fbfe6f0fae94281be2a3127259ea517");
-const address = "0x43b1578e4cb49670ddc03237537ab2247388e01f";
+const address = "0xCf0054c729f41cA5b3508c2B243260664aFb20a9";
 
+// Смарт-контракт суммирует 2 числа и может возвращать результат суммирования
 const ABI = [
       {
         "inputs": [
