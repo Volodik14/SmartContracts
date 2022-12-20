@@ -1,0 +1,161 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum GameResult",
+						"name": "result",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum HandFigure",
+						"name": "firstPlayer",
+						"type": "uint8"
+					},
+					{
+						"indexed": false,
+						"internalType": "enum HandFigure",
+						"name": "secondPlayer",
+						"type": "uint8"
+					}
+				],
+				"name": "GameOver",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "message",
+						"type": "string"
+					}
+				],
+				"name": "RestartGame",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum HandFigure",
+						"name": "hand",
+						"type": "uint8"
+					}
+				],
+				"name": "chooseHand",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "firstPlayer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "join",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "judge",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "restartGame",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "secondPlayer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/RPS.sol": "RPS"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/RPS.sol": {
+			"keccak256": "0xe93f6219e8bcb8c378515777cbf430bf18a5e3c46f01377a28ce0ad403e75109",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6233fe5eb1022d7abb64cd86284069d0d11fba0cd4aef51a00055782995fa8a9",
+				"dweb:/ipfs/QmNN1owdv6jczS1vJo25h7CtroayJMXE1QFgQZjcBUYmav"
+			]
+		}
+	},
+	"version": 1
+}

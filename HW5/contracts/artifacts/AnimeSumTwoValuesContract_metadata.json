@@ -1,0 +1,77 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "int256",
+						"name": "value1",
+						"type": "int256"
+					},
+					{
+						"internalType": "int256",
+						"name": "value2",
+						"type": "int256"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getSum",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SumContract.sol": "AnimeSumTwoValuesContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SumContract.sol": {
+			"keccak256": "0x0a75482161eb16cf3fb54f34669196c54c897d5e083a7eedf9f37147c66e1d62",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://55294476d8183e3dc85d2e7fb2858e2b72048c548230e14036094e948d95a6e3",
+				"dweb:/ipfs/QmQT4xYFhT5rLuKjH7xFA3uP2dxtUse2yyURp2NTvTR87G"
+			]
+		}
+	},
+	"version": 1
+}
